@@ -98,7 +98,7 @@ function handleValidationError(err, body) {
 
 
 
-var port = process.env.port || 4000;
+var port = process.env.port || 80;
 
 app.listen(port, ()=>{
     console.log(`Example app listening at http://localhost:${port}`);
