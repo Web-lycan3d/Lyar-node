@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+.body {
+  font-family: "Titillium Web";
+}
+.container-box {
+  position: relative;
+}
+.top-left {
+  position: absolute;
+  top: 32%;
+  left: 0%;
+  width: 100%;
+}
+.bottom-right {
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+#myVideo1 {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+#myVideo2 {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.title {
+  font-size: 80px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  padding-top: 3%;
+}
+.bottom-text {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Titillium web";
+}
+@media (max-width: 500px) {
+  .top-left {
+    top: 28%;
+    left: 9%;
+    width: 90%;
+  }
+  .floating-div {
+    height: 250px;
+    width: 92%;
+  }
+  .border-text {
+    width: 115px;
+    margin-top: -8.4%;
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+  .title {
+    font-size: 35px;
+    text-align: center;
+    margin-top:35.2%;
+    font-weight: 600;
+    color: white;
+  }
+  .bottom-right {
+    top: 60%;
+    right: 0%;
+    width: 100%;
+  }
+  .bottom-text {
+    font-size: 15px;
+    color: #fff;
+  }
+}
+@media (min-width: 500px) and (max-width: 969px) {
+  .top-left {
+    top: 35%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  .floating-div {
+    height: 280px;
+    width: 92%;
+  }
+  .title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 8%;
+    font-weight: 600;
+    color: white;
+  }
+  .bottom-right {
+    top: 60%;
+    right: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .bottom-text {
+    font-size: 30px;
+    color: #fff;
+  }
+}
+@media (min-width:970px) and (max-width:1100px) {
+  .top-left {
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  .floating-div {
+    height: 280px;
+    width: 92%;
+  }
+  .title {
+    font-size: 85px;
+    text-align: center;
+    margin-top: 6%;
+    font-weight: 600;
+    color: white;
+}
+  .bottom-right {
+    top: 70%;
+    right: 0%;
+}
+  .bottom-text {
+    font-size: 30px;
+    color: #fff;
+  }
+}
+@media (min-width: 1700px) {
+  .title {
+    padding-top: 2%;
+  }
+}

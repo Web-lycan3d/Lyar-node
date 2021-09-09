@@ -1,0 +1,86 @@
+.container-box {
+  position: relative;
+}
+.top-left {
+  position: absolute;
+  top: 28%;
+  right: 3%;
+  width: 50%;
+}
+.top-left-mob {
+  position: absolute;
+  top: 10%;
+  left: 6%;
+  width: 90%;
+}
+.top-left-tab {
+  position: absolute;
+  top: 15%;
+  right: 1%;
+  width: 50%;
+}
+.landing-text {
+  font-size: 90px;
+  color: #181147;
+  text-align: start;
+  font-weight: 600;
+  font-family: "Titillium web";
+}
+.landing-text-mob {
+  font-size: 48px;
+  color: #181147;
+  text-align: end;
+  font-weight: 600;
+  font-family: "Titillium web";
+}
+.landing-text-tab {
+  font-size: 60px;
+  color: #181147;
+  text-align: start;
+  font-weight: 600;
+  font-family: "Titillium web";
+}
+.body-title {
+  font-size: 70px;
+  color: #181147;
+  padding-left: 10%;
+  font-weight: 600;
+  font-family: "Titillium web";
+}
+.body-title-mob {
+  font-size: 40px;
+  color: #181147;
+  padding-left: 6%;
+  font-weight: 600;
+  font-family: "Titillium web";
+}
+.body-title-tab {
+  font-size: 58px;
+  color: #181147;
+  padding-left: 10%;
+  font-weight: 600;
+  font-family: "Titillium web";
+}
+.rocket-bgimg {
+  position: absolute;
+  bottom: 10%;
+  left: 16%;
+  z-index: 2;
+}
+.launch-bgimg {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  z-index: 1;
+}
+@media (min-width: 1700px) {
+  .top-left {
+    right: 1%;
+  }
+  .body-title {
+    font-size: 90px;
+  }
+  .landing-text {
+    font-size: 110px;
+  }
+}

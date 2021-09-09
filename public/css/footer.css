@@ -1,0 +1,75 @@
+.divider{
+  height: 40px;
+  background-color: #0791FF;
+}
+.icons {
+  text-align: end;
+}
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin {
+  font-size: 50px;
+  padding: 1% 6%;
+  color: #023690;
+}
+.footer-text {
+  font-size: 60px;
+  font-weight: 700;
+  padding: 8% 10% 4% 10%;
+  color: #023690;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+.footer-nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #023690;
+
+}
+.footer-nav a:hover {
+  text-decoration: none;
+}
+.footer-nav-small {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 4% 8% 4% 0%;
+  cursor: pointer;
+}
+.footer-nav-small a {
+  display: inline-block;
+  padding-left: 1rem;
+  color: #023690;
+}
+.footer-nav-small a:hover{
+  color: black;
+}
+@media (max-width: 969px) {
+  .fa-facebook-square,
+  .fa-instagram,
+  .fa-twitter,
+  .fa-linkedin {
+    font-size: 35px;
+    padding: 4% 2%;
+    color: #023690;
+  }
+  .footer-text {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 8% 10% 4% 10%;
+    color: #023690;
+  }
+}
+@media (max-width: 1700px) and (min-width: 969px){
+  .footer-text {
+    font-size: 48px;
+    padding: 8% 5% 4% 8%;
+  }
+}

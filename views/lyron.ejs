@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LYAR | <%=title%>
+    </title>
+    <link rel="icon" href="/image/lysr icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .box-container {
+            position: relative;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 15%;
+            left: 10%;
+            width: 100%;
+        }
+
+        .top-left-mob {
+            position: absolute;
+            top: 25%;
+            left: 10%;
+            width: 80%;
+        }
+        #loading {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #fff url(/image/Ripple-0.6s-200px.gif) no-repeat center center;
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <%- include('./partials/nav.ejs') %>
+        <section class="ly-hide-small ly-hide-medium">
+            <div class="box-container ly-image" style="padding-bottom: 100px;">
+                <img src="image/lyron/lyron bg.png" alt="" width="100%" height="auto">
+                <div class="top-left text-flicker-in-glow">
+                    <img src="image/lyron/LYron.png" alt="" width="80%" height="auto">
+                </div>
+            </div>
+        </section>
+
+        <section class="ly-hide-xlarge ly-hide-large">
+            <div class="box-container ly-image" style="padding-bottom: 50px;">
+                <img src="image/lyron/lyron bg mob.png" alt="" width="100%" height="auto">
+                <div class="top-left-mob text-flicker-in-glow">
+                    <img src="image/lyron/LYron.png" alt="" width="100%" height="auto">
+                </div>
+            </div>
+        </section>
+        <%- include('./partials/footer.ejs') %>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <script src="js/nav.js"></script>
+            <script>
+                var preloader = document.getElementById("loading")
+                function myFunction() {
+                    preloader.style.display = 'none';
+                };
+            </script>
+</body>
+
+</html>

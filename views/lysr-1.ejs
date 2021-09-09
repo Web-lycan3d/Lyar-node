@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LYAR | <%=title%>
+    </title>
+    <link rel="icon" href="/image/lysr icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/lysr-1.css">
+</head>
+
+<body>
+    <%- include('./partials/nav.ejs') %>
+        <section class="ly-hide-small ly-hide-medium">
+            <div class="ly-image">
+                <img src="image/landing drone.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="ly-image container-box ly-padding-top-64">
+                <img src="image/banner.png" alt="" width="100%" height="auto">
+                <div class="top-left">
+                    <h1 class="static-text">A Drone That Is
+                        <span class="txt-rotate" data-period="1000"
+                            data-rotate='[ "Powerful.", "Steady.", "Compact.", "Aesthetic.", "Precise." ]'></span>
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="ly-hide-xlarge ly-hide-large">
+            <div class="ly-image ly-padding-top-24">
+                <img src="image/mob/landing drone.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="ly-image container-box ly-padding-top-64">
+                <img src="image/mob/banner.png" alt="" width="100%" height="auto">
+                <div class="top-left-mob">
+                    <h1 class="static-text-mob">A Drone That Is
+                        <span class="txt-rotate" data-period="1000"
+                            data-rotate='[ "Powerful.", "Steady.", "Compact.", "Aesthetic.", "Precise." ]'></span>
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <%- include('./partials/footer.ejs') %>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <script src="js/text-animation.js"></script>
+            <script src="js/nav.js"></script>
+</body>
+
+</html>

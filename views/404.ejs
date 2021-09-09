@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LYSR | <%=title%>
+    </title>
+    <link rel="icon" href="/image/lysr icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/404.css">
+</head>
+
+<body>
+    <%- include('./partials/nav.ejs') %>
+        <section class="ly-hide-small">
+            <div class="container main-div">
+                <div class="row">
+                    <div class="col-md-6 sideimg">
+                        <div class="ly-image ly-center">
+                            <img src="/image/drone-icon.png" alt="" width="65%" height="auto">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ly-container ly-center error-text">
+                            <h1>Error 404</h1>
+                            <h3>We can't seem to find the page your looking for</h3>
+                            <p>Here are some helpful links instead</p>
+                            <div class="ly-center">
+                                <a href="/">Home</a>
+                                <a href="/lysr-1">Drone</a>
+                                <a href="/lyron">UAV</a>
+                                <a href="/contact">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ly-hide-xlarge ly-hide-large ly-hide-medium">
+            <div class="main-div-mob">
+                <h1>Error 404</h1>
+                <div class="ly-image ly-center ly-padding-16">
+                    <img src="/image/drone-icon.png" alt="" width="45%" height="auto">
+                </div>
+                <h3>We can't seem to find the page your looking for</h3>
+                <p>Here are some helpful links instead</p>
+                <div class="ly-center">
+                    <a href="/">Home</a>
+                    <a href="/lysr-1">Drone</a>
+                    <a href="/lyron">UAV</a>
+                    <a href="/contact">Contact Us</a>
+                </div>
+            </div>
+        </section>
+        <%- include('./partials/footer.ejs') %>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <script src="js/nav.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+.body {
+  font-family: "Titillium Web";
+}
+
+.container-box {
+  position: relative;
+}
+
+.div-center {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.floating-div {
+  width: 800px;
+  height: 600px;
+  background-color: #ededf5;
+  border-radius: 25px;
+  border: 2px solid #ededf5;
+}
+
+.header {
+  font-size: 42px;
+  color: #393952;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 15% 0 5% 15%;
+}
+
+.icons {
+  text-align: end;
+}
+.col-lg-8 {
+  padding-left: 5%;
+}
+.btn-primary {
+  background-color: #023690;
+  border: 1px solid #023690;
+}
+.form-control {
+  border: 1px solid #fff;
+}
+.contact-mob {
+  background-color: #ededf5;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header-mob {
+  text-align: center;
+  font-size: 40px;
+  color: #393952;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 8%;
+}
+.contact-detail {
+  display: flex;
+}

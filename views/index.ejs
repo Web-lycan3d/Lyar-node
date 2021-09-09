@@ -1,0 +1,263 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LYAR | <%=title%>
+    </title>
+    <link rel="icon" href="/image/lysr icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/landing.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <style>
+        #loading {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #fff url(/image/Ripple-0.6s-200px.gif) no-repeat center center;
+            z-index: 99999;
+        }
+    </style>
+</head>
+
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <%- include('./partials/nav.ejs') %>
+        <section class="ly-hide-small ly-hide-medium">
+            <div class="container-box">
+                <video autoplay muted loop id="myVideo">
+                    <source src="/image/video-1.mp4" type="video/mp4">
+                </video>
+                <div class="top-left">
+                    <div class="floating-div" data-aos='fade-down'>
+                        <h2 class="title">Lycan Aerospace Research</h2>
+                    </div>
+                </div>
+                <div class="bottom-right" data-aos='slide-up' style="transition-delay: 200ms;">
+                    <h2 class="bottom-text">
+                        Experience, Precision, Excellence
+                    </h2>
+                </div>
+            </div>
+            <div class="ly-container ly-hide-xlarge">
+                <div class="ly-container">
+                    <div style="padding:3% 4%;">
+                        <h1 style="font-size:80px;color: #023690;font-weight: 700;padding-left:0%;">Hello There.</h1>
+                        <p class="ly-xlarge ly-padding-top-32">At Lycan Aerospace Research (LYAR), we are constantly
+                            pushing the boundaries of aerospace research and are focused on the manufacturing and use of
+                            Unmanned Aerial Vehicles (UAV’s) and drones in a variety of industries. The ever-evolving
+                            fields we are working on in aerospace encompass the areas of Defense, Infrastructure,
+                            Medical Deliveries and Surveillance while also exploring visions of future needs for the
+                            aerospace enterprise. LYAR is a flourishing aerospace start-up based out of Bangalore.
+                            aspiring to create a paradigm shift in the realm of aerospace.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6" style="padding-top: 8%;">
+                        <div style="padding: 0 10%;">
+                            <h1 style="font-size:60px;color: #023690;font-weight: 700;padding-left:0%;">Your Eye In The
+                                Sky.
+                            </h1>
+                            <p class="ly-xlarge ly-padding-top-64 ly-justify">LYAR is a UAV manufacturing Startup
+                                focused on developing Drones & UAV, that are purpose built to tackle a wide variety of
+                                problems faced by the industry.
+                                <br> 
+                                We are in development of two new drones, Lyron and LYSR1
+                                that are built form our years of experience in the space and research industry
+                            </p>
+                        </div>
+                        <div id="container">
+                            <div class="button" id="button-5">
+                                <div id="translate"></div>
+                                <a href="/lysr-1">Drone</a>
+                            </div>
+                            <div class="button" id="button-5">
+                                <div id="translate"></div>
+                                <a href="/lyron">UAV</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="image/section1.png" alt="" width="100%" height="auto">
+                    </div>
+                </div>
+            </div>
+            <div class="ly-container ly-hide-large">
+                <div class="ly-container">
+                    <div style="padding:3% 4%;">
+                        <h1 style="font-size:100px;color: #023690;font-weight: 700;">Hello There</h1>
+                        <p class="ly-xxlarge ly-padding-top-32">At Lycan Aerospace Research (LYAR), we are constantly
+                            pushing the boundaries of aerospace research and are focused on the manufacturing and use of
+                            Unmanned Aerial Vehicles (UAV’s) and drones in a variety of industries. The ever-evolving
+                            fields we are working on in aerospace encompass the areas of Defense, Infrastructure,
+                            Medical Deliveries and Surveillance while also exploring visions of future needs for the
+                            aerospace enterprise. LYAR is a flourishing aerospace start-up based out of Bangalore.
+                            aspiring to create a paradigm shift in the realm of aerospace.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6" style="padding-top: 5%;">
+                        <div style="padding: 5% 10% 0%;">
+                            <h1 style="font-size:80px;color: #023690;font-weight: 700;">Your Eye In The Sky
+                            </h1>
+                            <p class="ly-xxlarge ly-padding-top-64 ly-justify">LYAR is a UAV manufacturing Startup
+                                focused on developing Drones & UAV, that are purpose built to tackle a wide variety of
+                                problems faced by the industry.
+                                <br> 
+                                We are in development of two new drones, Lyron and LYSR1
+                                that are built form our years of experience in the space and research industry
+                            </p>
+                        </div>
+                        <div id="container">
+                            <div class="button" id="button-5">
+                                <div id="translate"></div>
+                                <a href="/lysr-1">Drone</a>
+                            </div>
+                            <div class="button" id="button-5">
+                                <div id="translate"></div>
+                                <a href="/lyron">UAV</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <img src="image/section1.png" alt="" width="100%" height="auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--medium screen-->
+        <section class="ly-hide-large ly-hide-xlarge ly-hide-small">
+            <div class="container-box">
+                <video autoplay muted loop id="myVideo1">
+                    <source src="/image/video-1.mp4" type="video/mp4">
+                </video>
+                <div class="top-left">
+                    <div class="floating-div">
+                        <h2 class="title">Lycan Aerospace Research</h2>
+                    </div>
+                </div>
+                <div class="bottom-right">
+                    <h2 class="bottom-text">
+                        Experience, Precision, Excellence
+                    </h2>
+                </div>
+            </div>
+            <div class="ly-padding-top-32">
+                <div style="padding:4% 3% 2%;">
+                    <h1 style="font-size:50px;color: #023690;font-weight: 700;padding-left: 5%;">Hello There
+                    </h1>
+                    <p class="ly-large ly-padding-top-32 ly-justify">At Lycan Aerospace Research (LYAR), we are constantly
+                        pushing the boundaries of aerospace research and are focused on the manufacturing and use of
+                        Unmanned Aerial Vehicles (UAV’s) and drones in a variety of industries. The ever-evolving
+                        fields we are working on in aerospace encompass the areas of Defense, Infrastructure,
+                        Medical Deliveries and Surveillance while also exploring visions of future needs for the
+                        aerospace enterprise. LYAR is a flourishing aerospace start-up based out of Bangalore.
+                        aspiring to create a paradigm shift in the realm of aerospace.
+                    </p>
+                </div>
+                <div style="padding: 4% 3% 2%;">
+                    <h1 style="font-size:50px;color: #023690;font-weight: 700;padding-left: 5%;">Your Eye In The Sky
+                    </h1>
+                    <p class="ly-large ly-padding-top-32 ly-justify">LYAR is a UAV manufacturing Startup
+                        focused on developing Drones & UAV, that are purpose built to tackle a wide variety of
+                        problems faced by the industry.
+                        <br> 
+                        We are in development of two new drones, Lyron and LYSR1
+                        that are built form our years of experience in the space and research industry
+                    </p>
+                </div>
+                <div id="container1">
+                    <div class="button" id="button-5">
+                        <div id="translate"></div>
+                        <a href="/lysr-1">Drone</a>
+                    </div>
+                    <div class="button" id="button-5">
+                        <div id="translate"></div>
+                        <a href="/lyron">UAV</a>
+                    </div>
+                </div>
+                <div class="ly-image">
+                    <img src="image/section1.png" alt="" width="100%" height="auto">
+                </div>
+            </div>
+        </section>
+        <!--small screen-->
+        <section class="ly-hide-large ly-hide-xlarge ly-hide-medium">
+            <div class="container-box">
+                <video autoplay muted loop id="myVideo2">
+                    <source src="/image/video-1.mp4" type="video/mp4">
+                </video>
+                <div class="top-left">
+                    <div class="floating-div">
+                        <h2 class="title">Lycan Aerospace Research</h2>
+                    </div>
+                </div>
+                <div class="bottom-right">
+                    <h2 class="bottom-text">
+                        Experience, Precision, Excellence
+                    </h2>
+                </div>
+            </div>
+            <div class="ly-padding-top-32">
+                <div style="padding:4% 4% 2%;">
+                    <h1 style="font-size:40px;color: #023690;font-weight: 700;padding-left: 1%;">Hello There
+                    </h1>
+                    <p class="ly-large ly-padding-top-24 ly-justify">At Lycan Aerospace Research (LYAR), we are constantly
+                        pushing the boundaries of aerospace research and are focused on the manufacturing and use of
+                        Unmanned Aerial Vehicles (UAV’s) and drones in a variety of industries. The ever-evolving
+                        fields we are working on in aerospace encompass the areas of Defense, Infrastructure,
+                        Medical Deliveries and Surveillance while also exploring visions of future needs for the
+                        aerospace enterprise. LYAR is a flourishing aerospace start-up based out of Bangalore.
+                        aspiring to create a paradigm shift in the realm of aerospace.
+                    </p>
+                </div>
+                <div style="padding: 4% 4% 2%;">
+                    <h1 style="font-size:35px;color: #023690;font-weight: 700;padding-left: 1%;">Your Eye In The Sky
+                    </h1>
+                    <p class="ly-large ly-padding-top-24 ly-justify">LYAR is a UAV manufacturing Startup
+                        focused on developing Drones & UAV, that are purpose built to tackle a wide variety of
+                        problems faced by the industry.
+                        <br> 
+                        We are in development of two new drones, Lyron and LYSR1
+                        that are built form our years of experience in the space and research industry
+                    </p>
+                </div>
+                <div id="container1">
+                    <div class="button" id="button-5">
+                        <div id="translate"></div>
+                        <a href="/lysr-1">Drone</a>
+                    </div>
+                    <div class="button" id="button-5">
+                        <div id="translate"></div>
+                        <a href="/lyron">UAV</a>
+                    </div>
+                </div>
+                <div class="ly-image">
+                    <img src="image/section1.png" alt="" width="100%" height="auto">
+                </div>
+            </div>
+        </section>
+        <%- include('./partials/footer.ejs') %>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="/js/bootstrap.min.js"></script>
+            <script src="/js/aos.js"></script>
+            <script>
+                AOS.init({
+                    duration: 1200,
+                })
+                var preloader = document.getElementById("loading")
+                function myFunction() {
+                    preloader.style.display = 'none';
+                };
+            </script>
+</body>
+
+</html>
